@@ -9,4 +9,8 @@ This report gathers temperature data from 52 stations in Algeria, each station h
 R.S. Vose, B.E.Gleason, and T.G. Houston, 2012: Global Historical Climatology Network - 
 Daily (GHCN-Daily), Version 3. [indicate subset used following decimal, 
 e.g. Version 3.12]. 
-NOAA National Climatic Data Center. http://doi.org/10.7289/V5D21VHZ
+NOAA National Climatic Data Center. http://doi.org/10.7289/V5D21VHZ  
+  
+  
+## Location of the stations:
+![Github](https://github.com/Tahahaha7/Temperature_Forecast_Algeria/blob/master/dz_stations.png)
