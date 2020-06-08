@@ -14,4 +14,16 @@ NOAA National Climatic Data Center. http://doi.org/10.7289/V5D21VHZ
   
 ## Location of the stations:
 ![Github](https://github.com/Tahahaha7/Temperature_Forecast_Algeria/blob/master/dz_stations.png)
-**The color of the stations is coded based on the elevation from sea level (Red:High → Blue:Low)**
+**The color of the stations is coded based on the elevation from sea level (Red:High → Blue:Low)**  
+  
+  
+## Create the best fit model and forecast:
+The function ```forecast``` takes the name of the station and the number of month to forecast into the future as input. The function outputs some information about the station (number of observations, missing data, timeline of measurements). Below an example of the output for the Noumerat station.
+```python
+forecast('Noumerat', 120)
+```
+```
+Number of observations: 576
+Number of missing data: 40
+Range of data gathering: 1973-1  To  2017-9
+```
