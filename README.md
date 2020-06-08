@@ -27,3 +27,16 @@ Number of observations: 576
 Number of missing data: 40
 Range of data gathering: 1973-1  To  2017-9
 ```
+![Github](https://github.com/Tahahaha7/Temperature_Forecast_Algeria/blob/master/noumerat.png)  
+    
+        
+Using Facebook's Prophet package for timeseries forecast, the model is constructed using Fourier Transformation technique to generate the model with best fit resulting in the following graph
+
+![Github](https://github.com/Tahahaha7/Temperature_Forecast_Algeria/blob/master/noumerat_model.png)
+  
+    
+      
+The model is decomposed to highlight the long-term trend and yearly seasonality. Notice that the graph shows that average daily temperature increased by 2 degrees Celcuis from 1973 to 2017. Furthermore, the forecast projected a rise of 0.5 degree within the next decade (i.e., by 2027).  
+The seasonality trend shows the percentage rise in temperature in to reach a peack in July, then eventually goes dow in the beginning of Fall season.
+
+![Github](https://github.com/Tahahaha7/Temperature_Forecast_Algeria/blob/master/noumerat_forecast.png)
