@@ -14,3 +14,4 @@ NOAA National Climatic Data Center. http://doi.org/10.7289/V5D21VHZ
   
 ## Location of the stations:
 ![Github](https://github.com/Tahahaha7/Temperature_Forecast_Algeria/blob/master/dz_stations.png)
+**The color of the stations is coded based on the elevation from sea level (Red:High → Blue:Low)**
