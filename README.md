@@ -39,4 +39,10 @@ Using Facebook's Prophet package for timeseries forecast, the model is construct
 The model is decomposed to highlight the long-term trend and yearly seasonality. Notice that the graph shows that average daily temperature increased by 2 degrees Celcuis from 1973 to 2017. Furthermore, the forecast projected a rise of 0.5 degree within the next decade (i.e., by 2027).  
 The seasonality trend shows the percentage rise in temperature in to reach a peack in July, then eventually goes dow in the beginning of Fall season.
 
-![Github](https://github.com/Tahahaha7/Temperature_Forecast_Algeria/blob/master/noumerat_forecast.png)
+![Github](https://github.com/Tahahaha7/Temperature_Forecast_Algeria/blob/master/noumerat_forecast.png)  
+  
+  
+  
+The issue of interest is to highlight the change in long-term trend for all stations. In the following graph, each data point represent the percentage change in trend between 1950 to 2020. Notice that positive change (increase) is prominent as most of the data points are aove the 0% line.  
+  
+![Github](https://github.com/Tahahaha7/Temperature_Forecast_Algeria/blob/master/percentage_change.png)
