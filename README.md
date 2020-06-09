@@ -51,7 +51,7 @@ The issue of interest is to highlight the change in long-term trend for all stat
   
 Although the timeline for measurements differ across stations, most of them started registering in the mid 70s. The graph below illustrate the stations that witnessed a rise of greater than 2 degrees or less than 1 degree throughout their measurement timeline.  
   
-![Github](https://github.com/Tahahaha7/Temperature_Forecast_Algeria/blob/master/temp_change.png  
+![Github](https://github.com/Tahahaha7/Temperature_Forecast_Algeria/blob/master/temp_change.png)
   
   
 Finally, the following map shows the stations with the greatest change in temperature relative to other stations. The comparison is dependent on the timeline of measurement for each station (i.e., some stations started measuring temperature before others). To mitigate this issue, only the observations registered after January 1950 are taken into account.  
