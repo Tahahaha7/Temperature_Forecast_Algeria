@@ -45,4 +45,9 @@ The seasonality trend shows the percentage rise in temperature in to reach a pea
   
 The issue of interest is to highlight the change in long-term trend for all stations. In the following graph, each data point represent the percentage change in trend between 1950 to 2020. Notice that positive change (increase) is prominent as most of the data points are aove the 0% line.  
   
-![Github](https://github.com/Tahahaha7/Temperature_Forecast_Algeria/blob/master/percentage_change.png)
+![Github](https://github.com/Tahahaha7/Temperature_Forecast_Algeria/blob/master/percentage_change.png)  
+  
+  
+Although the timeline for measurements differ across stations, most of them started registering in the mid 70s. The graph below illustrate the stations that witnessed a rise of greater than 2 degrees or less than 1 degree throughout their measurement timeline.  
+  
+![Github](https://github.com/Tahahaha7/Temperature_Forecast_Algeria/blob/master/temp_change.png)
