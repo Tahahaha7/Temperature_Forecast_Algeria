@@ -57,4 +57,6 @@ Although the timeline for measurements differ across stations, most of them star
 Finally, the following map shows the stations with the greatest change in temperature relative to other stations. The comparison is dependent on the timeline of measurement for each station (i.e., some stations started measuring temperature before others). To mitigate this issue, only the observations registered after January 1950 are taken into account.  
 It's clear that southern stations didn't register a high increase in temperature, however, some cities in the center of Algeria witnessed a sharpe rise (eg. east side of Algeria). We also notice coastal cities that witnessed a rise of more than 1 degree throughout their measuring history.  
 
-<p align="center"><img src="https://github.com/Tahahaha7/Temperature_Forecast_Algeria/blob/master/final_algeria.png"></p>
+<p align="center"><img src="https://github.com/Tahahaha7/Temperature_Forecast_Algeria/blob/master/final_algeria.png"></p>  
+  
+**The color of the stations is coded based on the change in temperature (Red:High change → Blue:Low change)**
