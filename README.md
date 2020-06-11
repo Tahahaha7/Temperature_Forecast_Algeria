@@ -19,7 +19,7 @@ NOAA National Climatic Data Center. http://doi.org/10.7289/V5D21VHZ
   
   
 ## Create the best fit model and forecast:
-The function ```forecast``` takes the name of the station and the number of month to forecast into the future as input. The function outputs some information about the station (number of observations, missing data, timeline of measurements). Below an example of the output for the Noumerat station.
+The function ```forecast``` takes the name of the station and the number of month to forecast into the future as input. The function outputs some information about the station (number of observations, missing data, timeline of measurements). Below an example of the output for the Noumerat station in Ghardaia.
 ```python
 forecast('Noumerat', 120)
 ```
@@ -38,18 +38,18 @@ Using Facebook's Prophet package for timeseries forecast, the model is construct
     
       
 The model is decomposed to highlight the long-term trend and yearly seasonality. Notice that the graph shows that average daily temperature increased by 2 degrees Celcuis from 1973 to 2017. Furthermore, the forecast projected a rise of 0.5 degree within the next decade (i.e., by 2027).  
-The seasonality trend shows the percentage rise in temperature in to reach a peack in July, then eventually goes dow in the beginning of Fall season.
+The seasonality trend shows the percentage rise in temperature relative to the yearly average. The curve reaches a peack in July/August, then eventually goes down in the beginning of Fall season.
 
 ![Github](https://github.com/Tahahaha7/Temperature_Forecast_Algeria/blob/master/noumerat_forecast.png)  
   
   
   
-The issue of interest is to highlight the change in long-term trend for all stations. In the following graph, each data point represent the percentage change in trend between 1950 to 2020. Notice that positive change (increase) is prominent as most of the data points are aove the 0% line.  
+The issue of interest is to highlight the change in long-term trend for all stations. In the following graph, each data point represent the percentage change in trend between 1950 to 2020. Notice that positive change (increase) is prominent as most of the data points are above the 0% line.  
   
 ![Github](https://github.com/Tahahaha7/Temperature_Forecast_Algeria/blob/master/percentage_change.png)  
   
   
-Although the timeline for measurements differ across stations, most of them started registering in the mid 70s. The graph below illustrate the stations that witnessed a rise of greater than 2 degrees or less than 1 degree throughout their measurement timeline.  
+Although the timeline for measurements differ across stations, most of them started registering in the mid 70s. The graph below illustrates the stations that witnessed a rise of greater than 2 degrees or less than 1 degree throughout their measurement timeline.  
   
 ![Github](https://github.com/Tahahaha7/Temperature_Forecast_Algeria/blob/master/temp_change.png)
   
