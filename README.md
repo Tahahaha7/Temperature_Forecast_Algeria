@@ -1,5 +1,5 @@
 # Temperature Forecast in Algeria
-
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FTahahaha7%2FTemperature_Forecast_Algeria&count_bg=%2379C83D&title_bg=%23555555&icon=clyp.svg&icon_color=%23E7E7E7&title=Visitors&edge_flat=false)](https://hits.seeyoufarm.com)
 ## Introduction:
 This report gathers temperature data from 52 stations in Algeria, each station has a different timeline with an earliest measurment taken in January 1880. The data point represent the monthly average temperature.
 
